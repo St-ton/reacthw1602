@@ -7,5 +7,5 @@ HW-0802
 
 Описание задания: Необходимо реализовать приложение, позволяющее добавлять пользователей, при этом пользователи распределяются в два раздела по полу.
 
-<p align="left"><img src="https://github.com/St-ton/reacthw1602/hw1602.jpeg" width="500"></p>
+<p align="left"><img src="https://github.com/St-ton/reacthw1602/blob/master/hw1602.jpeg" width="500"></p>
 
