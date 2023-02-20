@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import UserForm from "../UserForm/UserForm";
 import UsersList from "../UsersList/UsersList";
+import Footer from "../Footer/Footer";
 import "./App.css";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <h4>Если ссылка на аватар не указана, то выводится шаблонное фото:</h4>
       <UsersList users={users} gender="male" />
       <UsersList users={users} gender="female" />
+      <Footer />
     </div>
   );
 }
