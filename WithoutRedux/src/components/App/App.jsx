@@ -15,7 +15,7 @@ export default function App() {
     <div className="App">
       <h1>Male and Female Users:</h1>
       <UserForm onAddUser={handleAddUser} />
-      <h5>Если ссылка на аватар не указана, то выводится шаблонное фото:</h5>
+      <h4>Если ссылка на аватар не указана, то выводится шаблонное фото:</h4>
       <UsersList users={users} gender="male" />
       <UsersList users={users} gender="female" />
       <Footer />

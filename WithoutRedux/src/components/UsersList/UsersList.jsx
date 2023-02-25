@@ -7,11 +7,11 @@ export default function UsersList({ users, gender }) {
 
   return (
     <div className="users-container">
-      <h3 className="title">
+      <h3 className="titel">
         {gender === "male" ? "Male Users" : "Female Users"}
       </h3>
       {filteredUsers.map((user) => (
-        <div className="users-card" key={user.id}>
+        <div className="users_card" key={user.id}>
           <img
             src={user.avatarLink === "" ? defaultLink : user.avatarLink}
             alt={user.name}

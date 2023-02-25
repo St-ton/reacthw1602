@@ -12,14 +12,14 @@
   gap: 20px;
 }
 
-.title {
+.titel {
   color: white;
   position: absolute;
   top: 15px;
   left: 30px;
 }
 
-.users-card {
+.users_card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
